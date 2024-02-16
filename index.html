@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https:        //use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        /* Custom CSS for enhanced styling */
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .portfolio-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .portfolio-image:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Additional CSS for animations */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        body {
+            background: linear-gradient(to bottom, #31EC56, #EE72F8); /* Gradient background */
+            color: #fff; /* Text color */
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            animation-name: swap;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+        }
+        a{
+            display:flex;
+            justify-content: center;
+        }
+        .project-card{
+            color:#000;
+        }
+        #about div{
+            padding: 20px;
+            margin:auto;
+            color:white;
+            background-color: #213f99;
+        }
+        .container{
+            text-align:center;
+        }
+        @keyframes swap{
+            0%{background: linear-gradient(to bottom, #31EC56, #EE72F8);}
+            50%{background: linear-gradient(to bottom, #EE72F8, #31EC56);}
+            100%{background:linear-gradient(to bottom, #31EC56, #EE72F8);}
+        }
+    </style>
+</head>
+<body>
+    <div class="container container-fluid">
+        <h6>Hi! I am</h6>
+        <h1 class="mt-5">Divyansh Baranwal</h1>
+
+        <!-- XYZ's Photo -->
+        <img src="C:\Users\ANKITA\3D Objects\divyansh.png" alt="My image" class="portfolio-image mt-4 fade-in">
+        <div class="container container-fluid">
+            <h1 class="mt-5">Introduction</h1>
+    
+            <!-- Your description here -->
+            <p class="mt-3">
+                Welcome to my digital portfolio! I'm Divyansh Baranwal, a passionate Front End Web Developer with expertise in HTML5, CSS3, JavaScript, Bootstrap, and more. I believe in the power of clean, interactive, and visually appealing web experiences. Explore my showcased projects below to get a glimpse of my work.
+            </p></div>
+        <h2 class="mt-4">Projects</h2>
+        <div class="row container-fluid">
+            <!-- Project 1 -->
+            <div class="col-md-6">
+                <div class="card mb-4 project-card container-fluid">
+                    <a href="https://dishu1234567.github.io/Todo/">To-Do list</a>
+                    <div class="card-body container-fluid">
+                        <h5 class="card-title">To-Do list</h5>
+                        <p class="card-text">The To-Do List project is a simple yet powerful task management tool designed to help you stay organized and boost your productivity. With an intuitive user interface, you can effortlessly add, edit, and prioritize tasks, ensuring that nothing falls through the cracks..</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-6 container-fluid">
+                <div class="card mb-4 project-card container-fluid">
+                    <a href="https://dishu1234567.github.io/Password/">Password-generator</a>
+                    <div class="card-body container-fluid">
+                        <h5 class="card-title">Password-generator</h5>
+                        <p class="card-text">The Password Generator project is your key to creating strong and secure passwords in seconds. With customizable options, it generates unique and robust passwords to safeguard your online accounts from threats..</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-6">
+                <div class="card mb-4 project-card container-fluid">
+                    <a href="https://Dishu1234567.github.io">Calculator</a>
+                    <div class="card-body container-fluid">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">The Calculator project simplifies complex math tasks with its user-friendly interface. Perform basic arithmetic calculations effortlessly. It's your go-to tool for quick and accurate calculations.</p>
+                    </div>
+                </div>
+            </div>
+           <!--Project 4-->
+           <div class="col-md-6 container-fluid">
+            <div class="card mb-4 project-card container-fluid">
+                <a href="https://dishu1234567.github.io/Chatbot/">Chatbot</a>
+                <div class="card-body container-fluid">
+                    <h5 class="card-title">Chatbot</h5>
+                    <p class="card-text">Ever felt alone or are you a terrible customer support system ever placed in the history of humanity? Then not to worry this app can take FAQs and give appropriate responses for once to customers.And you can eat candies while this handles FAQs all the time.</p>
+                </div>
+            </div>
+        </div>
+        <!--Project 5-->
+        <div class="col-md-6 container-fluid">
+            <div class="card mb-4 project-card container-fluid">
+                <a href="https://dishu1234567.github.io/Snake/">Snake game</a>
+                <div class="card-body container-fluid">
+                    <h5 class="card-title">Snake game</h5>
+                    <p class="card-text">Snake Classic brings back the nostalgia of the beloved retro game. Control your snake, gobble up food, and grow longer while avoiding collisions. It's a timeless challenge of strategy and reflexes..</p>
+                </div>
+            </div>
+        </div>
+        <!--Project 6-->
+        <div class="col-md-6 container-fluid">
+            <div class="card mb-4 project-card container-fluid">
+                <a href="https://dishu1234567.github.io/Rating/">Star rating</a>
+                <div class="card-body container-fluid">
+                    <h5 class="card-title">Star rating</h5>
+                    <p class="card-text">The Star Rating App simplifies feedback collection with a single tap. Express your opinions effortlessly by assigning star ratings to products, services, and experiences. Your feedback matters, and this app makes it quick and easy.</p>
+                </div>
+            </div>
+        </div>
+        <!--Project 7-->
+        <div class="col-md-6 container-fluid">
+            <div class="card mb-4 project-card container-fluid">
+                <a href="https://dishu1234567.github.io/dishu1234567github/">Training</a>
+                <div class="card-body container-fluid">
+                    <h5 class="card-title">Training</h5>
+                    <p class="card-text">For all the new kids that are being squished by the old ones like an abused child then don't worry we are here with a chance of saving those children and showcase those old kings what newbies can do.Cheers!</p>
+                </div>
+            </div>
+        </div>
+        <!--Project 8-->
+        <div class="col-md-6 container-fluid">
+            <div class="card mb-4 project-card container-fluid">
+                <a href="http://loanmewmewgithub.com/">SI Calculator</a>
+                <div class="card-body container-fluid">
+                    <h5 class="card-title">SI Calculator</h5>
+                    <p class="card-text">It Calculates Simple Interest for all those banks that are too lazy to use a normal calculator and use their brains for 2 seconds or more.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="carousel slide" data-bs-ride="carousel" id="about"><!--adding Carousel-->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="about" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="about" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="about" data-bs-slide-to="2"></button>
+        </div><!--making slides-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+    <h2>Contact Details</h2>
+   <div class="info container-fluid">
+      <p>E-mail: divyanshbaranwal76@gmail.com</p>
+      <p>Phone number: 9315068594</p>
+   </div></div>
+    <div class="carousel-item">
+        <div class="continer-fluid">
+   <h2>Other Hobbies</h2>
+   <ol>
+       <li>Reading books (Physics to be specific including General Relativity, QFT, QED, Atomic physics
+           Quantum and classical Mechanics and computational physics)</li>
+       <li>video games</li>
+       <li>swimming</li>
+       <li>Research</li>
+       <li>Cooking minor dishes</li>
+   </ol></div></div>
+    <div class="carousel-item">
+        <div class="container-item">
+   <h2>Achievements</h2>
+   <ol>
+       <li>IAAC silver honors</li>
+       <li>1st year category rank 1 in India and international rank 12 in Rudolf Ortvay olympiad </li>
+   </ol></div></div>
+</div>
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
